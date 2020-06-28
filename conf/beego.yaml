@@ -1,0 +1,18 @@
+AppName: GOTF
+RunMode: "dev"
+RouterCaseSensitive: false
+ServerName: "Go-beego"
+CopyRequestBody: true
+
+#Listen
+ListenTCP4: true
+EnableHTTP: true
+HTTPAddr: "0.0.0.0"
+HTTPPort: 18080
+EnableAdmin: true
+AdminAddr: "0.0.0.0"
+AdminPort: 18088
+
+#WebConfig
+AutoRender: false
+EnableDocs: true
